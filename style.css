@@ -2,7 +2,8 @@ body {
     width: 100vw;
     height: 100vh;
     margin: 0px;
-
+    overflow-x: hidden;
+ 
 
 
 }
@@ -12,20 +13,21 @@ body {
     height: 60px;
     background-color: white;
     display: flex;
-
+  
 }
 
 .d1 {
     margin-left: 50px;
-    margin-top: 15px;
+    margin-top: 10px;
     font-size: x-large;
 }
 
 .d2 {
-    width: 500px;
+    width: 530px;
     height: 30px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 15px;
+   border: 1px solid rgb(242, 241, 241);
 
 }
 
@@ -37,25 +39,38 @@ body {
 }
 
 .d3 {
-    margin-left: 300px;
-    margin-top: 20px;
+    margin-left: 260px;
+    margin-top: 18px;
 }
 
 .s2 {
     border: none;
     outline: none;
     margin-left: 20px;
+    margin-top:5px ;
 }
 
 .b1 {
-    width: 80px;
-    height: 30px;
-    margin-top: 13px;
+    width: 75px;
+    height: 28px;
+    margin-top: 15px;
     margin-left: 30px;
     background-color: rgb(241, 71, 71);
     color: white;
     border: none;
     border-radius: 5px;
+}
+
+    
+    
+
+
+.menu{
+    position: absolute; 
+     margin-top: 0px;
+    margin-left: 980px;
+   
+     
 }
 
 
@@ -85,35 +100,38 @@ body {
 
 }
 
-.div3 {
-    width: 2480px;
+.carousel-inner {
+    width: 100vw;
     height: 330px;
     display: flex;
     gap: 10px;
     background-color: rgb(237, 230, 230);
-
+   
 
 
 }
 
-.img1 {
+.carousel-item active {
     margin-top: 15px;
-    margin-left: 10px;
+   
     height: 300px;
-    width: 1220px;
+     width: 1230px;
     border-radius: 10px;
-    animation-name: move;
-    animation-duration: 2s;
+     animation-name: move;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-iteration-count: 3;
     
+    
 }
 
-.img2 {
+.carousel-item {
     margin-top: 15px;
+    margin-left: 15px;
     height: 300px;
-    width: 1220px;
+    width: 1230px;
     border-radius: 10px;
+     overflow-x: hidden;
 
 
 
@@ -130,21 +148,21 @@ body {
     50% {
 
         margin-top: 15px;
-        margin-left: -1200px;
+        margin-left: -1230px;
 
 
     }
      60% {
 
         margin-top: 15px;
-        margin-left: -1200px;
+        margin-left: -1230px;
 
 
     }
      70% {
 
         margin-top: 15px;
-        margin-left: -1200px;
+        margin-left: -1230px;
 
 
     }
@@ -179,29 +197,36 @@ body {
 
 .h1 {
     margin-top: 30px;
-    margin-left: 40px;
+    margin-left: 45px;
     font-size: x-large;
     width: 300px;
 }
 
 .seeall {
-    margin-left: 1150px;
+    margin-left: 1160px;
     margin-top: -40px;
     color: rgb(243, 9, 9);
+}
+.bi bi-chevron-right{
+    position: absolute;
+   margin-left: -900px;
 }
 
 .main1 {
     display: flex;
     height: 355px;
-    margin-left: 40px;
+    width: 100vw;
+    margin-left: 45px;
     margin-top: 10px;
-    gap: 30px;
+    gap: 32px;
 
 }
 
-.main1 div img {
-    width: 200px;
-    height: 300px;
+.main1 img {
+    width: 210px;
+    height: 355px;
+    border-radius: 10px;
+      
 }
 
 .main2 {
@@ -218,7 +243,7 @@ body {
 }
 
 .c1 {
-    margin-left: 40px;
+    margin-left: 45px;
     font-size: larger;
 
 
@@ -226,7 +251,7 @@ body {
 }
 
 .c2 {
-    margin-left: 60px;
+    margin-left: 50px;
     font-size: larger;
 
 
@@ -234,7 +259,7 @@ body {
 }
 
 .c3 {
-    margin-left: 65px;
+    margin-left: 50px;
     font-size: larger;
 
 
@@ -242,7 +267,7 @@ body {
 }
 
 .c4 {
-    margin-left: 70px;
+    margin-left: 53px;
     font-size: larger;
 
 
@@ -250,7 +275,7 @@ body {
 }
 
 .c5 {
-    margin-left: 65px;
+    margin-left: 48px;
     font-size: larger;
 
 
